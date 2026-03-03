@@ -285,3 +285,15 @@ body::after{
   background:rgba(255,255,255,.03);
 }
 .tech p{margin:8px 0 0 0}
+
+.btn.highlight {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
+}
+
+.btn.highlight:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(37, 99, 235, 0.35);
+}
